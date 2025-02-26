@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function fetchRandomQuote() {
         //API URL -> https://api.quotable.io/random
         // Fetch Data From API URL
-        fetch('https://api.quotable.io/random')
+        fetch('http://api.quotable.io/random')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
