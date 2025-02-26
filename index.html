@@ -1,0 +1,50 @@
+<!-- 
+    Project: Random Quote Generator  
+    Developed By : Niyamathullah R
+    Developed For : Medify
+    API Used: Quotable API  
+    Endpoint: https://api.quotable.io/random  
+    Purpose: Fetch a random quote along with the author and display it on the page.  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medify Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="article">
+    <article>
+        <blockquote>
+            <!-- Placeholder text for the quote (will be replaced dynamically) -->
+            <p>Loading...</p>
+
+            <!-- Empty cite tag (can be used to display the author of the quote) -->
+            <cite></cite>
+        </blockquote>
+    </article>
+</div>
+
+<div class="button-container">
+    <!-- Refresh icon from Font Awesome -->
+    <button class="button-generate" id="refresh" role="button"><i class="fa fa-refresh" aria-hidden="true" style="margin-top:7px;"></i>&nbsp;&nbsp;Grab Your Quote Now</button>
+</div>
+
+
+<div class="medify-credit">
+    <!-- Section to give credit to Medify -->
+    <p>Project For</p>
+    <img src="medify.png" alt="medify">
+    <!-- Displays the Medify logo -->
+</div>
+
+<script src="script.js"></script>
+<!-- Links an external JavaScript file for functionality -->
+</body>
+</html>
